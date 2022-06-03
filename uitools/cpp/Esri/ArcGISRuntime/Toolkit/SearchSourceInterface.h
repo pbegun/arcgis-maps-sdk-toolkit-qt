@@ -38,6 +38,8 @@ namespace ArcGISRuntime {
 }
 }
 
+Q_MOC_INCLUDE("SearchResult.h")
+
 namespace Esri {
 namespace ArcGISRuntime {
 namespace Toolkit {
