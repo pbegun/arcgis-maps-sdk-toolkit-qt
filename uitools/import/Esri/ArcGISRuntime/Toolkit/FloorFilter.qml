@@ -18,7 +18,7 @@ import QtQuick 2.12
 import QtQuick.Controls 2.15
 import QtQuick.Layouts 1.15
 import QtQml.Models 2.15
-import QtGraphicalEffects 1.12
+//import QtGraphicalEffects 1.12
 
 /*!
   \qmltype FloorFilter
@@ -331,11 +331,11 @@ Control {
                             margins: 4
                         }
                     }
-                    ColorOverlay {
-                        anchors.fill: searchImg
-                        source: searchImg
-                        color: noResultsFoundLabel.color
-                    }
+//                    ColorOverlay {
+//                        anchors.fill: searchImg
+//                        source: searchImg
+//                        color: noResultsFoundLabel.color
+//                    }
                 }
 
                 Label {
